@@ -17,15 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Brs-9X-dgj">
-                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Brs-9X-dgj" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="87" id="XQA-h5-cGb"/>
-                            <constraint firstItem="Brs-9X-dgj" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="233" id="crZ-6O-D4l"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Brs-9X-dgj" secondAttribute="bottom" constant="234" id="qUK-nu-p6Q"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Brs-9X-dgj" secondAttribute="trailing" constant="88" id="yDo-qs-GX0"/>
+                            <constraint firstItem="Brs-9X-dgj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sUd-IM-SgU"/>
+                            <constraint firstItem="Brs-9X-dgj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uJW-nN-mZn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
