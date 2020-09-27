@@ -51,7 +51,7 @@ class TweetCellTableViewCell: UITableViewCell {
     
     @IBAction func retweet(_ sender: Any) {
         TwitterAPICaller.client?.retweet(tweetId: tweetId, success: {
-            self.retweet(true)
+            self.setRetweet(true)
         }, failure: { (error) in
             print("Error is retweeting: \(error)")
         })
